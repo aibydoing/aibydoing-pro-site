@@ -12,7 +12,7 @@ function Testimonial() {
         <StarRating />
       </div>
       <blockquote className="mt-2">
-        <p className="font-display text-xl font-medium text-slate-900">
+        <p className="smiley-sans text-xl font-medium text-slate-900">
           “循序渐进，理论结合实际，比很多书好太多了”
         </p>
       </blockquote>
@@ -47,17 +47,21 @@ export function Hero() {
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pl-16 lg:pt-0 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              动手实践人工智能
+            <h1 className="smiley-sans text-5xl font-extrabold text-slate-900 sm:text-6xl">
+              动手实践人工智能 Pro
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              一本将机器学习原理和实践相结合的书籍，通过动手实践的方式，让你学懂、吃透人工智能。
+              通过动手实践的方式，让你学懂、吃透人工智能。
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#pricing" color="blue">
-                学习方案
+                购买 Pro
               </Button>
-              <Button href="https://aibydoing.com/" variant="outline" color="blue">
+              <Button
+                href="https://aibydoing.com/"
+                variant="outline"
+                color="blue"
+              >
                 免费阅读
               </Button>
             </div>

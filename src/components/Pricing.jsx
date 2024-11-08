@@ -36,7 +36,7 @@ function Plan({ name, description, price, features, href, featured = false }) {
         >
           {description}
         </p>
-        <p className="order-first flex font-display font-bold">
+        <p className="smiley-sans order-first flex font-bold">
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
@@ -98,29 +98,32 @@ export function Pricing() {
       className="scroll-mt-14 pb-8 pt-16 sm:scroll-mt-32 sm:pb-10 sm:pt-20 lg:pb-16 lg:pt-32"
     >
       <Container>
-        <p className="mt-8 smiley-sans text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          学习方案
+        <p className="smiley-sans mt-8 text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+          Pro 计划
         </p>
-        <p className="font-display mt-4 max-w-xl text-lg tracking-tight text-slate-600">
+        <p className="smiley-sans mt-4 max-w-xl text-lg tracking-tight text-slate-600">
           选择适合你的学习方案，开始动手实践人工智能。
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
         <div className="grid bg-slate-50 sm:px-6 sm:pb-16 md:grid-cols-2 md:rounded-6xl md:px-8 md:pt-16 lg:p-20">
           <Plan
-            name="自学版"
-            description="获取 Jupyter Notebook 文档实操练习"
+            name="Pro 自学版"
+            description="实践出真知"
             price="99"
             href="#"
-            features={['完整的 Jupyter Notebook 文档']}
+            features={['完整 Jupyter Notebook 实操练习']}
           />
           <Plan
             featured
-            name="导学版"
+            name="Pro 导学版"
             description="作者提供业余时间答疑"
             price="299"
             href="#"
-            features={['完整的 Jupyter Notebook 文档', '作者业余时间答疑服务']}
+            features={[
+              '完整 Jupyter Notebook 实操练习',
+              '作者业余时间答疑服务',
+            ]}
           />
         </div>
       </div>

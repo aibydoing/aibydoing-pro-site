@@ -45,7 +45,7 @@ const resources = [
   {
     title: '作者交流',
     description:
-      "助学版可以添加作者私人微信进行交流，作者会利用业余时间答疑解惑。",
+      '助学版可以添加作者私人微信进行交流，作者会利用业余时间答疑解惑。',
     image: function WechatImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
@@ -77,10 +77,10 @@ export function Resources() {
                 <resource.image />
               </div>
               <div>
-                <h3 className="text-base font-medium tracking-tight text-slate-900">
+                <h3 className="smiley-sans text-base font-medium tracking-tight text-slate-900">
                   {resource.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="smiley-sans mt-2 text-sm text-slate-600">
                   {resource.description}
                 </p>
               </div>

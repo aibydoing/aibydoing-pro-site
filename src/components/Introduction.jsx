@@ -11,9 +11,9 @@ export function Introduction() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          你thing Starts as a Square” is a book and video course that
-          teaches you a simple method to designing icons that anyone can learn.
+        <p className="smiley-sans text-4xl font-bold tracking-tight text-slate-900">
+          你thing Starts as a Square” is a book and video course that teaches
+          you a simple method to designing icons that anyone can learn.
         </p>
         <p className="mt-4">
           Before I learned how to design icons myself, I always imagined that

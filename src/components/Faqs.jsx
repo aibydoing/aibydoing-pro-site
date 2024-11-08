@@ -88,7 +88,9 @@ export function Faqs() {
                     <h3 className="smiley-sans text-lg leading-7 text-slate-900">
                       {faq.question}
                     </h3>
-                    <p className="smiley-sans mt-4 text-sm text-slate-700">{faq.answer}</p>
+                    <p className="smiley-sans mt-4 text-sm text-slate-700">
+                      {faq.answer}
+                    </p>
                   </li>
                 ))}
               </ul>

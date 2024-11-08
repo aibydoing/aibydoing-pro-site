@@ -11,8 +11,9 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: '动手实践人工智能 | 学习方案 - aibydoing.com',
-  description: '一本将机器学习原理和实践相结合的书籍，通过动手实践的方式，让你更好地理解人工智能。购买学习方案，让你学懂、吃透人工智能。',
+  title: '学习方案 | 动手实践人工智能 - aibydoing.com',
+  description:
+    '一本将机器学习原理和实践相结合的书籍，通过动手实践的方式，让你更好地理解人工智能。购买学习方案，让你学懂、吃透人工智能。',
 }
 
 export default function RootLayout({ children }) {
