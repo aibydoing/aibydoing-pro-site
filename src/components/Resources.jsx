@@ -43,7 +43,7 @@ const resources = [
     },
   },
   {
-    title: '作者交流',
+    title: '一对一交流',
     description:
       '助学版可以添加作者私人微信进行交流，作者会利用业余时间答疑解惑。',
     image: function WechatImage() {
