@@ -102,7 +102,7 @@ export function Pricing() {
           Pro 会员计划
         </p>
         <p className="smiley-sans mt-4 max-w-xl text-lg tracking-tight text-slate-600">
-          选择适合你的学习方案，开始动手实践人工智能。
+          选择适合你的会员计划，开始动手实践人工智能。
         </p>
       </Container>
       <div className="mx-auto mt-16 max-w-5xl lg:px-6">
