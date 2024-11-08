@@ -11,7 +11,7 @@ function Plan({ name, description, price, features, href, featured = false }) {
     <div
       className={clsx(
         'relative px-4 py-16 sm:rounded-5xl sm:px-10 md:py-12 lg:px-12',
-        featured && 'bg-purple-600 sm:shadow-lg',
+        featured && 'bg-lime-600 sm:shadow-lg',
       )}
     >
       {featured && (
@@ -40,7 +40,7 @@ function Plan({ name, description, price, features, href, featured = false }) {
           <span
             className={clsx(
               'text-[1.75rem] leading-tight',
-              featured ? 'text-purple-200' : 'text-slate-500',
+              featured ? 'text-lime-200' : 'text-slate-500',
             )}
           >
             ¥
@@ -83,7 +83,7 @@ function Plan({ name, description, price, features, href, featured = false }) {
           className="mt-8"
           aria-label={`Get started with the ${name} plan for $${price}`}
         >
-          立刻购买
+          立即加入
         </Button>
       </div>
     </div>
@@ -99,7 +99,7 @@ export function Pricing() {
     >
       <Container>
         <p className="smiley-sans mt-8 text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-          Pro 计划
+          Pro 会员计划
         </p>
         <p className="smiley-sans mt-4 max-w-xl text-lg tracking-tight text-slate-600">
           选择适合你的学习方案，开始动手实践人工智能。

@@ -12,14 +12,14 @@ const variantStyles = {
   solid: {
     slate:
       'bg-slate-900 text-white hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900 active:bg-slate-700 active:text-white/80 disabled:opacity-30 disabled:hover:bg-slate-900',
-    blue: 'bg-purple-600 text-white hover:bg-purple-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600 active:bg-purple-700 active:text-white/80 disabled:opacity-30 disabled:hover:bg-purple-600',
+    blue: 'bg-lime-600 text-white hover:bg-lime-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600 active:bg-lime-700 active:text-white/80 disabled:opacity-30 disabled:hover:bg-lime-600',
     white:
-      'bg-white text-purple-600 hover:text-purple-700 focus-visible:text-purple-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-purple-50 active:text-purple-900/80 disabled:opacity-40 disabled:hover:text-purple-600',
+      'bg-white text-lime-600 hover:text-lime-700 focus-visible:text-lime-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white active:bg-lime-50 active:text-lime-900/80 disabled:opacity-40 disabled:hover:text-lime-600',
   },
   outline: {
     slate:
       'border-slate-200 text-slate-900 hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600 active:border-slate-200 active:bg-slate-50 active:text-slate-900/70 disabled:opacity-40 disabled:hover:border-slate-200 disabled:hover:bg-transparent',
-    blue: 'border-purple-300 text-purple-600 hover:border-purple-400 hover:bg-purple-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600 active:text-purple-600/70 disabled:opacity-40 disabled:hover:border-purple-300 disabled:hover:bg-transparent',
+    blue: 'border-lime-300 text-lime-600 hover:border-lime-400 hover:bg-lime-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime-600 active:text-lime-600/70 disabled:opacity-40 disabled:hover:border-lime-300 disabled:hover:bg-transparent',
   },
 }
 

@@ -37,7 +37,7 @@ export function Introduction() {
             'Figma features and keyboard shortcuts to speed up your workflow',
           ].map((feature) => (
             <li key={feature} className="flex">
-              <CheckIcon className="h-8 w-8 flex-none fill-purple-500" />
+              <CheckIcon className="h-8 w-8 flex-none fill-lime-500" />
               <span className="ml-4">{feature}</span>
             </li>
           ))}
@@ -50,7 +50,7 @@ export function Introduction() {
         <p className="mt-10">
           <Link
             href="#free-chapters"
-            className="text-base font-medium text-purple-600 hover:text-purple-800"
+            className="text-base font-medium text-lime-600 hover:text-lime-800"
           >
             Get two free chapters straight to your inbox{' '}
             <span aria-hidden="true">&rarr;</span>

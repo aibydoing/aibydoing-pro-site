@@ -21,7 +21,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="mt-6 text-base font-medium text-purple-600 hover:text-purple-800"
+          className="mt-6 text-base font-medium text-lime-600 hover:text-lime-800"
         >
           返回主页 <span aria-hidden="true">&rarr;</span>
         </Link>

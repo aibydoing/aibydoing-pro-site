@@ -50,9 +50,9 @@ const faqs = [
         '中国大陆地区可以使用支付宝或微信，其他地区可以使用 Paypal 给作者付款。无法通过上述方式付款请联系 huhuhang@gmail.com',
     },
     {
-      question: 'Pro 计划支持退款吗？',
+      question: 'Pro 会员计划支持退款吗？',
       answer:
-        '不支持，请考虑后购买。',
+        '不支持，请考虑后再支付。',
     }
   ],
 ]
