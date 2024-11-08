@@ -111,7 +111,7 @@ export function Pricing() {
             name="Pro 自学版"
             description="实践出真知"
             price="99"
-            href="#"
+            href="https://db769ifrw0.feishu.cn/share/base/form/shrcn22MC0ob8StKrNfVhwVd3jg"
             features={['完整 Jupyter Notebook 实操练习']}
           />
           <Plan
@@ -119,7 +119,7 @@ export function Pricing() {
             name="Pro 导学版"
             description="作者提供业余时间答疑"
             price="299"
-            href="#"
+            href="https://db769ifrw0.feishu.cn/share/base/form/shrcn22MC0ob8StKrNfVhwVd3jg"
             features={[
               '完整 Jupyter Notebook 实操练习',
               '作者业余时间答疑服务',
