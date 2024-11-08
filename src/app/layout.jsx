@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
+import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 
 import '@/styles/tailwind.css'
 import '@/styles/global.css'
@@ -36,7 +37,10 @@ export default function RootLayout({ children }) {
           href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700&display=swap"
         />
       </head>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        {children}
+        <GoogleAnalytics />
+      </body>
     </html>
   )
 }
