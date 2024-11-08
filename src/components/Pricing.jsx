@@ -117,12 +117,12 @@ export function Pricing() {
           <Plan
             featured
             name="Pro 导学版"
-            description="作者提供业余时间答疑"
+            description="作者答疑解惑"
             price="299"
             href="https://db769ifrw0.feishu.cn/share/base/form/shrcn22MC0ob8StKrNfVhwVd3jg"
             features={[
               '完整 Jupyter Notebook 实操练习',
-              '作者业余时间答疑服务',
+              '与作者一对一交流沟通',
             ]}
           />
         </div>
